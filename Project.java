@@ -1,5 +1,5 @@
 
 public class Project extends Entry{
 	
-	public Project() {}
+	public Project(String name, String skills, Student[] team) {}
 }

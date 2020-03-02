@@ -1,6 +1,6 @@
 
 public class Student extends Entry{
 	
-	public Student() {}
+	public Student(String name, String skill) {}
 
 }
