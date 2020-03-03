@@ -4,9 +4,11 @@ import org.junit.Test;
 
 public class QueryResultTest2 {
 
-	@Test
+	@Test (expected = IllegalArgumentException.class)
 	public void test() {
-		fail("Not yet implemented");
+		QueryResult q = new QueryResult();
+		q.Type = Student;
+		Student s = q.roster[1];
 	}
 
 }

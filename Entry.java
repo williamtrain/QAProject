@@ -1,5 +1,6 @@
 
 public class Entry {
-	public Entry() {}
+	public Entry(String Name) {
+	}
 	
 }

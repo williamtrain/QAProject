@@ -6,7 +6,7 @@ public class StudentTest2 {
 
 	@Test (expected = IllegalArgumentException.class)
 	public void test() {
-	//testing creating a course using the wrong data types
-		Course c = new Course("Ron");
+	//testing creating a student using the wrong data types
+		Student s = new Student("Ron");
 	}
 }

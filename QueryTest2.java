@@ -4,9 +4,17 @@ import org.junit.Test;
 
 public class QueryTest2 {
 
-	@Test
+	@Test (expected = IllegalArgumentException.class)
 	public void test() {
-		fail("Not yet implemented");
+		//Invalid Input Test
+		Query Q = new Query(124);
 	}
+	
+	@Test
+	public void test2() {
+		//Making sure string isnt null
+		Query Q = new Query("Johnathan");
+		assert(Q.data != null);
+	}	
 
 }
