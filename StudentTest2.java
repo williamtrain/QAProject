@@ -4,9 +4,9 @@ import org.junit.Test;
 
 public class StudentTest2 {
 
-	@Test
+	@Test (expected = IllegalArgumentException.class)
 	public void test() {
-		fail("Not yet implemented");
+	//testing creating a course using the wrong data types
+		Course c = new Course("Ron");
 	}
-
 }

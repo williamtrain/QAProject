@@ -1,6 +1,6 @@
 
 public class Query {
 	
-	public Query() {}
+	public Query(String s) {}
 
 }

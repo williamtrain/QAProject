@@ -4,9 +4,11 @@ import org.junit.Test;
 
 public class ProjectTest2 {
 
-	@Test
+	@Test (expected = IllegalArgumentException.class)
 	public void test() {
-		fail("Not yet implemented");
+	//testing creating a project using the wrong data types
+		Course c = new Course(4, course[]);
 	}
 
 }
+
