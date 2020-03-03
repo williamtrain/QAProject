@@ -6,7 +6,8 @@ public class QueryTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Query q = new Query("target");
+		assertEquals("target", q.target);
 	}
 
 }
