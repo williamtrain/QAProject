@@ -5,8 +5,18 @@ import org.junit.Test;
 public class ConnectionTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testConnection() {
+		String file = "C:/Users/andre/Documents/Spring2020/Milestone2DB";
+		Connection c = new Connection();
+		assertEquals(file, c.path);
+	}
+	
+	@Test
+	public void testQueryReturns() {
+		String file = "C:/Users/andre/Documents/Spring2020/Milestone2DB";
+		Connection c = new Connection();
+		QueryResult exp = new QueryResult("Expected");
+		assertEquals(exp, c.FindData(new Query("Insert SQL here I guess")));
 	}
 
 }
