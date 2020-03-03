@@ -6,7 +6,8 @@ public class EntryTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Entry e = new Entry("idk");
+		assertEquals("idk", e.name);
 	}
 
 }
