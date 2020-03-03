@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Connection {
 	
-	public string path;
+	public String path;
 	
 	public Connection(File f) {}
 	

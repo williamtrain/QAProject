@@ -6,7 +6,7 @@ public class EntryManager {
 	
 	public EntryManager() {}
 	
-	public void AddEntry() {}
+	public void AddEntry(Entry e) {}
 	
 	public void DeleteEntry(Entry e) {}
 	

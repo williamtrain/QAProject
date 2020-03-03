@@ -12,7 +12,7 @@ public class ProjectTest {
 		Project p = new Project("Database of Things", "SQLServer, Networking", s);
 		assert(p.name == "Database of Things");
 		assert(p.skills == "SQLServer, Networking");
-		assert(p.team[1].name == "Rob")	
+		assert(p.team[1].name == "Rob");	
 	}
 
 }

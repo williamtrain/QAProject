@@ -16,7 +16,7 @@ public class ConnectionTest2 {
 		//The path tested here would not contain the file, as such, we are testing a connection to a non existant file
 		File f = new File("C:/windows/users/irbri/documents/wrong.txt");
 		Connection connection1 = new Connection(f);
-		assert(connection1.path = ("C:/windows/users/irbri/documents/wrong.txt"));
+		assert(connection1.path == ("C:/windows/users/irbri/documents/wrong.txt"));
 		
 	}	
 	@Test (expected = IllegalArgumentException.class)

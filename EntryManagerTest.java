@@ -8,15 +8,15 @@ public class EntryManagerTest {
 	public void testAdd() {
 		Entry e = new Entry("hi");
 		EntryManager em = new EntryManager();
-		em.AddEntry(Entry e);
-		assertEquals(true, e.added);
+		em.AddEntry(e);
+		assertEquals(true, em.added);
 	}
 	
 	public void testDelete() {
 		Entry e = new Entry("bye");
 		EntryManager em = new EntryManager();
 		em.DeleteEntry(e);
-		assertEquals(true, e.deleted);
+		assertEquals(true, em.deleted);
 	}
 
 }
