@@ -1,6 +1,6 @@
  
 public class QueryResult {
 	
-	public QueryResult() {}
+	public QueryResult(String s) {}
 
 }

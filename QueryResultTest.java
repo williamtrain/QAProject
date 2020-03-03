@@ -6,7 +6,8 @@ public class QueryResultTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		QueryResult qr = new QueryResult();
+		AssertEquals()
 	}
 
 }
