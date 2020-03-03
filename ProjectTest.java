@@ -6,7 +6,13 @@ public class ProjectTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Student[] s = new Student[20];
+		Student S = new Student("Rob", "SQLServer");
+		s[1] = S;
+		Project p = new Project("Database of Things", "SQLServer, Networking", s);
+		assert(p.name == "Database of Things");
+		assert(p.skills == "SQLServer, Networking");
+		assert(p.team[1].name == "Rob")	
 	}
 
 }

@@ -6,7 +6,9 @@ public class StudentTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		Student s = new Student("Rob", "SQLServer");
+		assert(s.name == "Database of Things");
+		assert(s.skills == "SQLServer");
 	}
 
 }

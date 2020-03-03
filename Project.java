@@ -1,5 +1,11 @@
 
 public class Project extends Entry{
 	
-	public Project(String name, String skills, Student[] team) {}
+	public  String skills;
+	public String name;
+	public Student[] team;
+
+	public Project(String n, String skl, Student[] t) {
+		
+	}
 }
